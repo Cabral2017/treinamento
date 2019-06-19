@@ -9,7 +9,10 @@ module.exports = function(ctx) {
         css: [
             'app.styl'
         ],
-
+        plugins: [
+            'openlayers',
+            'axios'
+        ],
         extras: [
             'roboto-font',
             'material-icons' // optional, you are not bound to it
